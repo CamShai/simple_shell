@@ -1,0 +1,15 @@
+#ifndef SHELL_H
+#define SHELL_H
+#define MAX_INPUT_SIZE 1024
+#define TOKEN_DELIM " \t\r\n\a"
+#include<sys/types.h>
+#include<sys/wait.h>
+#include<sys/stat.h>
+#include<stdio.h>
+#include<string.h>
+#include<stdlib.h>
+#include<unistd.h>
+char *get_path(char *command);
+void exemycmd(char **argv);
+int main(int argc, char **argv);
+#endif
