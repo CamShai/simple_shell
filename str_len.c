@@ -1,4 +1,4 @@
-#include "header.h"
+#include "simple_shell.h"
 /**
  * str_len - THIS Finds the length of a string including the null character
  * @str: String to be measured
